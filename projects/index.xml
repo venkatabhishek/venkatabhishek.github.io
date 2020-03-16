@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abhishek Venkat</title>
+    <link>https://venkatabhishek.github.io/projects/</link>
+    <description>Recent content on Abhishek Venkat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Mar 2020 14:59:21 -0400</lastBuildDate>
+    
+	<atom:link href="https://venkatabhishek.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zamato Finder</title>
+      <link>https://venkatabhishek.github.io/projects/zamato-finder/</link>
+      <pubDate>Mon, 16 Mar 2020 14:59:21 -0400</pubDate>
+      
+      <guid>https://venkatabhishek.github.io/projects/zamato-finder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconnaissance Blind Chess</title>
+      <link>https://venkatabhishek.github.io/projects/reconnaissance-blind-chess/</link>
+      <pubDate>Mon, 16 Mar 2020 14:59:06 -0400</pubDate>
+      
+      <guid>https://venkatabhishek.github.io/projects/reconnaissance-blind-chess/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Three.js Visualizer</title>
+      <link>https://venkatabhishek.github.io/projects/audio-visualizer/</link>
+      <pubDate>Mon, 16 Mar 2020 14:58:31 -0400</pubDate>
+      
+      <guid>https://venkatabhishek.github.io/projects/audio-visualizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mini-Sass</title>
+      <link>https://venkatabhishek.github.io/projects/mini-sass/</link>
+      <pubDate>Mon, 16 Mar 2020 14:03:48 -0400</pubDate>
+      
+      <guid>https://venkatabhishek.github.io/projects/mini-sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quizzer</title>
+      <link>https://venkatabhishek.github.io/projects/quizzer/</link>
+      <pubDate>Mon, 16 Mar 2020 14:03:03 -0400</pubDate>
+      
+      <guid>https://venkatabhishek.github.io/projects/quizzer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/projects/</loc>
+    <lastmod>2020-03-16T14:59:21-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/</loc>
+    <lastmod>2020-03-16T14:59:21-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/projects/zamato-finder/</loc>
+    <lastmod>2020-03-16T14:59:21-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/projects/reconnaissance-blind-chess/</loc>
+    <lastmod>2020-03-16T14:59:06-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/projects/audio-visualizer/</loc>
+    <lastmod>2020-03-16T14:58:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/projects/mini-sass/</loc>
+    <lastmod>2020-03-16T14:03:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/projects/quizzer/</loc>
+    <lastmod>2020-03-16T14:03:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://venkatabhishek.github.io/tags/</loc>
+  </url>
+  
+</urlset>
