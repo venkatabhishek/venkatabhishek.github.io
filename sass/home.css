@@ -3,3 +3,16 @@
 
 .subline {
   font-size: 2.5vw; }
+
+@media only screen and (max-width: 650px) {
+  .headline {
+    font-size: 32px;
+    margin-top: 40px; }
+  .subline {
+    font-size: 28px; } }
+
+@media only screen and (max-width: 400px) {
+  .headline {
+    font-size: 20px; }
+  .subline {
+    font-size: 20px; } }

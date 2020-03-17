@@ -64,3 +64,8 @@
   position: absolute;
   bottom: 10px;
   left: 10px; }
+
+@media only screen and (max-width: 400px) {
+  .special {
+    padding-left: 0;
+    padding-right: 0; } }

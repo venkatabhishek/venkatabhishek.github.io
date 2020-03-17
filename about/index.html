@@ -28,7 +28,42 @@
             <a class="link" href="/contact">Contact</a>
         
     </div>
+
+    <div class="mobile">
+        <div class="menu-icon" id="nav">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+    </div>
+
 </nav>
+
+
+<div class="overlay" id="mobile">
+
+    <div class="mobile-menu">
+        <a class="link" href="/">Home</a>
+        
+            <a class="link" href="/about">About</a>
+        
+            <a class="link" href="/projects">Projects</a>
+        
+            <a class="link" href="/contact">Contact</a>
+        
+    </div>
+
+</div>
+
+<script>
+    let m = document.getElementById("nav");
+    let o = document.getElementById("mobile");
+    m.addEventListener("click", function(){
+        m.classList.toggle("active");
+        o.classList.toggle("active");
+    })
+
+</script>
 
 
 <link rel="stylesheet" href="https://venkatabhishek.github.io/sass/about.css">
@@ -48,13 +83,13 @@
     </div>
 
     <h3 class="subline">
-        I'm a <span class="highlight">computer science</span> student at the University of Maryland, College
-        Park.
-
-        <br /><br />
-
+        <div class="subsubline">I'm a <span class="highlight">computer science</span> student at the University of Maryland, College
+        Park.</div>
+                
+        <div class="subsubline">
         I am interested in all forms of software development, but I particularly enjoy
          <span class="highlight">Web Development</span> and <span class="highlight">Programming Language Design</span>
+        </div>
     </h3>
 
 </div>

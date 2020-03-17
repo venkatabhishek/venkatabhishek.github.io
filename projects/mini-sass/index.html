@@ -28,7 +28,42 @@
             <a class="link" href="/contact">Contact</a>
         
     </div>
+
+    <div class="mobile">
+        <div class="menu-icon" id="nav">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+    </div>
+
 </nav>
+
+
+<div class="overlay" id="mobile">
+
+    <div class="mobile-menu">
+        <a class="link" href="/">Home</a>
+        
+            <a class="link" href="/about">About</a>
+        
+            <a class="link" href="/projects">Projects</a>
+        
+            <a class="link" href="/contact">Contact</a>
+        
+    </div>
+
+</div>
+
+<script>
+    let m = document.getElementById("nav");
+    let o = document.getElementById("mobile");
+    m.addEventListener("click", function(){
+        m.classList.toggle("active");
+        o.classList.toggle("active");
+    })
+
+</script>
 
     Mini-Sass
 
