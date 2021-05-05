@@ -1,13 +1,17 @@
 <html>
     <head>
-	<meta name="generator" content="Hugo 0.67.1" />
+	<meta name="generator" content="Hugo 0.83.1" />
         <title>
             Abhishek Venkat
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
+        
+
         <script src="https://venkatabhishek.github.io/js/all.min.js"></script>
+        <script src="https://venkatabhishek.github.io/js/anime.min.js"></script>
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://venkatabhishek.github.io/sass/base.min.css">
@@ -67,15 +71,17 @@
 </script>
 
 
+
 <link rel="stylesheet" href="https://venkatabhishek.github.io/sass/home.css">
+
 
 <div class="container">
 
 
     <div class="headline">
 
-        <h1>
-            Hello, I'm a 
+        <h1 class="hello-line">
+            Hello, I'm a
             <span class="highlight">
                 Developer
             </span>
@@ -86,14 +92,49 @@
 
     <div class="subline">
 
-        I write code for fun and for profit. Check out my <a href="/projects"><span
-                class="highlight">stuff</span></a>!
+        I write code for fun and for profit. Check out my <a href="/projects"><span class="highlight">stuff</span></a>!
 
     </div>
 
 
 </div>
 
+<script>
+
+
+    window.onload = function () {
+
+        let t = anime.timeline({
+            easing: 'easeOutExpo',
+            duration: 1000
+        });
+
+
+        t.add({
+            targets: ".hello-line",
+            marginLeft: 0,
+            opacity: 1,
+        }).add({
+            targets: ".subline",
+            marginLeft: 0,
+            opacity: 1,
+        }, 300).add({
+            targets: ".logo",
+            marginTop: 0,
+            opacity: 1,
+            duration: 1200
+        }, 600).add({
+            targets: ".links",
+            marginRight: 0,
+            opacity: 1,
+            duration: 1400
+        }, 800)
+
+
+    }
+
+
+</script>
 
 
 

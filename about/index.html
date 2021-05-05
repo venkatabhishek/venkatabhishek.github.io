@@ -6,7 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
+        
+
         <script src="https://venkatabhishek.github.io/js/all.min.js"></script>
+        <script src="https://venkatabhishek.github.io/js/anime.min.js"></script>
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://venkatabhishek.github.io/sass/base.min.css">
@@ -72,7 +76,7 @@
 
     <div class="headline">
 
-        <h1>
+        <h1 class="hello-line">
             Hi, my name is
             <span class="highlight">
                 Abhishek Venkat
@@ -93,6 +97,39 @@
     </h3>
 
 </div>
+
+
+<script>
+
+    window.onload = function () {
+
+        let t = anime.timeline({
+            easing: 'easeOutExpo',
+            duration: 1000
+        });
+
+
+        t.add({
+            targets: ".subline",
+            marginLeft: 0,
+            opacity: 1,
+        }).add({
+            targets: ".logo",
+            marginLeft: 0,
+            opacity: 1,
+            duration: 1200
+        }, 300).add({
+            targets: ".links",
+            marginTop: 0,
+            opacity: 1,
+            duration: 1400
+        }, 500)
+
+
+    }
+
+
+</script>
 
 
 

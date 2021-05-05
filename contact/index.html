@@ -6,7 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
+        
+
         <script src="https://venkatabhishek.github.io/js/all.min.js"></script>
+        <script src="https://venkatabhishek.github.io/js/anime.min.js"></script>
+
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://venkatabhishek.github.io/sass/base.min.css">
@@ -74,18 +78,18 @@
     </h1>
 
     <div class="external">
-        <a href="https://github.com/venkatabhishek">
+        <a class="a-circle" href="https://github.com/venkatabhishek">
             <div class="circle">
                     <i class="fab fa-github fa-lg"></i>
             </div>
         </a>
 
-        <a href="https://www.linkedin.com/in/abhishekvenkat/">
+        <a class="a-circle" href="https://www.linkedin.com/in/abhishekvenkat/">
             <div class="circle">
                     <i class="fab fa-linkedin-in fa-lg"></i>
             </div>
         </a>
-        <a href="https://dribbble.com/avenka6794">
+        <a class="a-circle" href="https://dribbble.com/avenka6794">
             <div class="circle">
                     <i class="fab fa-dribbble fa-lg"></i>
             </div>
@@ -96,6 +100,38 @@
             Or send me an <a href="mailto:abhisaivenkat@gmail.com"><span class="highlight">email</span></a>
         </h1>
 </div>
+
+<script>
+    
+    window.onload = function () {
+
+        let t = anime.timeline({
+            easing: 'easeOutExpo',
+            duration: 1000
+        });
+
+
+        t.add({
+            targets: ".a-circle",
+            opacity: 1,
+            marginTop: 0,
+            duration: 1500
+        }).add({
+            targets: ".logo",
+            marginLeft: 0,
+            opacity: 1,
+            duration: 1200
+        }, 200).add({
+            targets: ".links",
+            marginTop: 0,
+            opacity: 1,
+            duration: 1400
+        }, 400)
+
+
+}
+
+</script>
 
 
 

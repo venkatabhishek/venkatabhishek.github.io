@@ -1,8 +1,22 @@
+.hello-line {
+  margin-left: -200px;
+  opacity: 0; }
+
 .headline {
   font-size: 4.5vw; }
 
 .subline {
-  font-size: 2.5vw; }
+  font-size: 2.5vw;
+  margin-left: -200px;
+  opacity: 0; }
+
+.logo {
+  margin-top: -100px;
+  opacity: 0; }
+
+.links {
+  margin-right: -100px;
+  opacity: 0; }
 
 @media only screen and (max-width: 650px) {
   .headline {

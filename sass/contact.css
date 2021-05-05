@@ -1,3 +1,15 @@
+.logo {
+  margin-left: -100px;
+  opacity: 0; }
+
+.links {
+  margin-top: -100px;
+  opacity: 0; }
+
+.a-circle {
+  margin-top: 50px;
+  opacity: 0; }
+
 .external {
   display: flex;
   flex-wrap: wrap;
