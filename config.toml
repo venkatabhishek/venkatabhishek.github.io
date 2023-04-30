@@ -1,0 +1,34 @@
+baseURL = "https://venkatabhishek.github.io"
+author = "Abhishek Venkat"
+languageCode = "en-us"
+title = "Abhishek Venkat"
+theme = "paper"
+
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'venkatabhishek'
+  linkedin = 'in/abhishekvenkat'
+
+  # home page profile
+  name = "Hello, I'm a Developer 💻"
+  bio = "I write code for fun and for profit. Check out my stuff!"
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
