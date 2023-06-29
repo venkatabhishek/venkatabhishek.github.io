@@ -1,6 +1,6 @@
 +++
 title = "A Comparison of some Frontend Tooling/Build Tools"
-date = "2023-05-7"
+date = "2023-05-07"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 categories = [
     "frontend",

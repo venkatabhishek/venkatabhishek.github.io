@@ -1,6 +1,6 @@
 +++
 title = "About this website"
-date = "2023-05-1"
+date = "2023-05-01"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 categories = [
     "meta",
